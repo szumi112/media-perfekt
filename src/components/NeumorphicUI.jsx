@@ -9,7 +9,8 @@ import {
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../assets/logo.png";
-import phoneAndroid from "../assets/phone-android.jpg";
+// import phoneAndroid from "../assets/phone-android.jpg";
+import phoneAndroid from "../assets/phone-android-darker.jpg";
 import { useState } from "react";
 import ContactModal from "./contactModal";
 
@@ -87,7 +88,7 @@ const NeumorphicUI = () => {
             <img
               src={phoneAndroid}
               alt="Phone Mockup"
-              className="absolute bottom-0 right-0 h-[80vh] max-w-none object-contain"
+              className="absolute bottom-0 sm:right-0 lg:right-[-75px] right-0 h-[80vh] max-w-none object-contain"
             />
           </div>
         </section>
