@@ -4,12 +4,13 @@
     "email": "E-mail",
     "phone": "Phone",
     "hours": "Opening Hours",
-    "days-hours": "Mon - Sat 9:00 - 21:00"
+    "days-hours": "Mon-Fri: 9:00 - 19:00",
+    "days-hours-weekend": "Sat: 9:00 - 15:00"
   },
   "hero": {
     "heading": "Eletronics Repair In Ożarów Maz.",
     "description": "Get your phone repaired quickly and professionally.",
-    "button": "Get Started"
+    "button": "Get in touch"
   },
   "services": {
     "title": "Our Services",
@@ -40,6 +41,12 @@
     "message": "Message",
     "messagePlaceholder": "Enter your message",
     "sendButton": "Send"
+  },
+  "reviews": {
+    "header": "Our Reviews"
+  },
+  "contact": {
+    "header": "Contact"
   },
   "footer": {
     "about": "Media Perfekt provides professional repair services for electronics and IT devices. We ensure high-quality service with quick turnaround times.",

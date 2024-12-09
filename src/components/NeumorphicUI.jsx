@@ -6,17 +6,10 @@ import {
   faClock,
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../assets/logo.png";
-// import phoneAndroid from "../assets/phone-android.jpg";
 import phoneAndroid from "../assets/phone-android-darker.jpg";
-import { useState } from "react";
-import ContactModal from "./contactModal";
 
-const NeumorphicUI = () => {
+const NeumorphicUI = ({ onContactClick }) => {
   const { t } = useTranslation();
-  const [isModalOpen, setIsModalOpen] = useState(false);
-
-  const handleOpenModal = () => setIsModalOpen(true);
-  const handleCloseModal = () => setIsModalOpen(false);
 
   return (
     <div className="bg-black text-white">
@@ -56,7 +49,8 @@ const NeumorphicUI = () => {
                 className="text-blueAccent text-sm mr-3"
               />
               <span className="text-sm sm:text-base">
-                {t("header.days-hours")}
+                {t("header.days-hours")} <br />
+                {t("header.days-hours-weekend")}
               </span>
             </div>
           </div>
@@ -74,7 +68,7 @@ const NeumorphicUI = () => {
               {t("hero.description")}
             </p>
             <button
-              onClick={handleOpenModal}
+              onClick={onContactClick}
               className="px-6 sm:px-8 py-2 sm:py-3 rounded-full bg-red-600 text-white hover:scale-105 transition-transform"
             >
               {t("hero.button")}
@@ -90,8 +84,6 @@ const NeumorphicUI = () => {
           </div>
         </section>
       </div>
-
-      <ContactModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>
   );
 };

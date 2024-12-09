@@ -11,7 +11,7 @@ const Footer = () => {
           <p className="text-sm text-gray-400">{t("footer.about")}</p>
         </div>
 
-        <div className=" mt-8 pt-6 text-sm">
+        <div className="mt-8 pt-6 text-sm">
           <div className="flex justify-between items-center">
             <p className="text-gray-400">
               © 2024 Media Perfekt. {t("footer.rightsReserved")}

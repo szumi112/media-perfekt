@@ -6,6 +6,7 @@ import i18n from "./18";
 import WhatWeDo from "./components/WhatWeDo";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 
 const App = () => {
   const [language, setLanguage] = useState(
@@ -22,12 +23,23 @@ const App = () => {
     i18n.changeLanguage(language);
   }, [language]);
 
+  const scrollToContact = () => {
+    const contactElement = document.getElementById("contact-info");
+    if (contactElement) {
+      contactElement.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <div className="bg-white">
       <I18nextProvider i18n={i18n}>
-        <NeumorphicUI />
+        <NeumorphicUI onContactClick={scrollToContact} />
         <WhatWeDo />
         <Reviews />
+        <div id="contact-info">
+          <Contact />
+        </div>
+
         <Footer />
         <div className="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg flex space-x-4 items-center">
           <button

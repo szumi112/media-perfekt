@@ -4,12 +4,13 @@
     "email": "E-mail",
     "phone": "Telefon",
     "hours": "Godziny otwarcia",
-    "days-hours": "Pon - Sob 9:00 - 21:00"
+    "days-hours": "Pon-Pt: 9:00 - 19:00",
+    "days-hours-weekend": "Sob: 9:00 - 15:00"
   },
   "hero": {
     "heading": "Naprawa elektroniki w Ożarowie Maz.",
     "description": "Naprawimy twój telefon szybko i profesjonalnie.",
-    "button": "Rozpocznij"
+    "button": "Skontakuj się z nami"
   },
   "services": {
     "title": "Nasze usługi",
@@ -40,6 +41,12 @@
     "message": "Wiadomość",
     "messagePlaceholder": "Wpisz swoją wiadomość",
     "sendButton": "Wyślij"
+  },
+  "reviews": {
+    "header": "Opinie Naszych Klientów"
+  },
+  "contact": {
+    "header": "Kontakt"
   },
   "footer": {
     "about": "Media Perfekt oferuje profesjonalne usługi naprawy elektroniki i urządzeń IT. Gwarantujemy wysoką jakość usług i szybki czas realizacji.",
