@@ -27,7 +27,14 @@ const App = () => {
   const scrollToContact = () => {
     const contactElement = document.getElementById("contact-info");
     if (contactElement) {
-      contactElement.scrollIntoView({ behavior: "smooth" });
+      const headerOffset = document.querySelector("header").offsetHeight || 0;
+      const elementPosition = contactElement.getBoundingClientRect().top;
+      const offsetPosition = elementPosition + window.scrollY - headerOffset;
+
+      window.scrollTo({
+        top: offsetPosition,
+        behavior: "smooth",
+      });
     }
   };
 
