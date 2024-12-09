@@ -23,7 +23,7 @@ const App = () => {
   }, [language]);
 
   return (
-    <div className="bg-gray-100">
+    <div className="bg-white">
       <I18nextProvider i18n={i18n}>
         <NeumorphicUI />
         <WhatWeDo />

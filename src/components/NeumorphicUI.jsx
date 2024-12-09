@@ -21,7 +21,7 @@ const NeumorphicUI = () => {
   return (
     <div className="bg-black text-white">
       <div className="max-w-[1440px] mx-auto">
-        <header className="bg-black flex flex-wrap justify-between items-center px-4 sm:px-10 py-4 fixed w-full max-w-[1440px] text-white z-10 shadow-md z-20 rounded-none md:rounded-lg">
+        <header className="bg-black flex flex-wrap justify-between items-center px-4 sm:px-10 py-4 fixed w-full max-w-[1440px] text-white z-10 shadow-md z-20 rounded-b-none md:rounded-b-lg">
           <div className="flex items-center mb-4 sm:mb-0">
             <img src={logo} alt="Media Perfekt Logo" className="h-10 mr-4" />
           </div>
