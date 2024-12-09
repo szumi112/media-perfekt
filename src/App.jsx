@@ -7,6 +7,7 @@ import WhatWeDo from "./components/WhatWeDo";
 import Reviews from "./components/Reviews";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
+import ContactInfo from "./components/ContactInfo";
 
 const App = () => {
   const [language, setLanguage] = useState(
@@ -36,9 +37,11 @@ const App = () => {
         <NeumorphicUI onContactClick={scrollToContact} />
         <WhatWeDo />
         <Reviews />
-
         <Contact />
-        <div id="contact-info"></div>
+
+        <div id="contact-info">
+          <ContactInfo />
+        </div>
 
         <Footer />
         <div className="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg flex space-x-4 items-center">
