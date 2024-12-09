@@ -1,9 +1,6 @@
 import { useTranslation } from "react-i18next";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faMobileAlt,
-  faBatteryFull,
-  faTint,
   faEnvelope,
   faPhone,
   faClock,
@@ -69,7 +66,7 @@ const NeumorphicUI = () => {
           className="relative flex flex-col sm:flex-row items-center justify-center min-h-screen pt-20"
           id="hero"
         >
-          <div className="text-center sm:text-left max-w-lg mb-8 sm:mb-0 z-10">
+          <div className="text-center sm:text-left max-w-[500px] mb-8 sm:mb-0 z-10">
             <h1 className="text-4xl sm:text-5xl font-bold mb-4">
               {t("hero.heading")}
             </h1>
@@ -93,42 +90,7 @@ const NeumorphicUI = () => {
           </div>
         </section>
       </div>
-      <section id="services" className="bg-white py-10 sm:py-20 px-4 sm:px-10">
-        <div className="max-w-[1440px] mx-auto">
-          <h2 className="text-2xl sm:text-3xl font-bold text-center text-black mb-8 sm:mb-10">
-            {t("services.title")}
-          </h2>
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
-            <div className="flex flex-col items-center p-6 sm:p-8 bg-gray-900 rounded-xl">
-              <FontAwesomeIcon
-                icon={faMobileAlt}
-                className="text-3xl sm:text-4xl text-blueAccent mb-4"
-              />
-              <h3 className="text-lg sm:text-xl font-bold">
-                {t("services.screen")}
-              </h3>
-            </div>
-            <div className="flex flex-col items-center p-6 sm:p-8 bg-gray-900 rounded-xl">
-              <FontAwesomeIcon
-                icon={faBatteryFull}
-                className="text-3xl sm:text-4xl text-blueAccent mb-4"
-              />
-              <h3 className="text-lg sm:text-xl font-bold">
-                {t("services.battery")}
-              </h3>
-            </div>
-            <div className="flex flex-col items-center p-6 sm:p-8 bg-gray-900 rounded-xl">
-              <FontAwesomeIcon
-                icon={faTint}
-                className="text-3xl sm:text-4xl text-blueAccent mb-4"
-              />
-              <h3 className="text-lg sm:text-xl font-bold">
-                {t("services.water")}
-              </h3>
-            </div>
-          </div>
-        </div>
-      </section>
+
       <ContactModal isOpen={isModalOpen} onClose={handleCloseModal} />
     </div>
   );

@@ -1,0 +1,44 @@
+{
+  "header": {
+    "title": "Eletronics Repair In Ożarów Maz.",
+    "email": "E-mail",
+    "phone": "Phone",
+    "hours": "Opening Hours",
+    "days-hours": "Mon - Sat 9:00 - 21:00"
+  },
+  "hero": {
+    "heading": "Eletronics Repair In Ożarów Maz.",
+    "description": "Get your phone repaired quickly and professionally.",
+    "button": "Get Started"
+  },
+  "services": {
+    "title": "Our Services",
+    "smartphone": "Smartphone Repair",
+    "smartphoneDescription": "Broken screens, battery replacement, charging issues, microphone, and speaker repairs.",
+    "computer": "Computer Repair",
+    "computerDescription": "Hardware upgrades, screen repair, keyboard replacement, and data recovery.",
+    "console": "Console Repair",
+    "consoleDescription": "Overheating issues, disk drive repair, controller connection issues, and more.",
+    "tv": "Television Repair",
+    "tvDescription": "Screen issues, sound problems, power supply repair, and connectivity issues.",
+    "camera": "Camera Repair",
+    "cameraDescription": "Lens cleaning, sensor issues, battery replacement, and button repairs.",
+    "other": "Other Electronics",
+    "otherDescription": "We also fix drones, smartwatches, and any other electronic devices.",
+    "readMore": "Learn more"
+  },
+
+  "contactModal": {
+    "title": "Contact Us",
+    "email": "Email",
+    "phone": "Phone",
+    "hours": "Opening Hours",
+    "address": "Address",
+    "name": "Name",
+    "namePlaceholder": "Enter your name",
+    "emailPlaceholder": "Enter your email",
+    "message": "Message",
+    "messagePlaceholder": "Enter your message",
+    "sendButton": "Send"
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "header": {
+    "title": "Naprawa elektroniki w Ożarowie Maz.",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "hours": "Godziny otwarcia",
+    "days-hours": "Pon - Sob 9:00 - 21:00"
+  },
+  "hero": {
+    "heading": "Naprawa elektroniki w Ożarowie Maz.",
+    "description": "Naprawimy twój telefon szybko i profesjonalnie.",
+    "button": "Rozpocznij"
+  },
+  "services": {
+    "title": "Nasze usługi",
+    "smartphone": "Naprawa smartfonów",
+    "smartphoneDescription": "Zbite ekrany, wymiana baterii, problemy z ładowaniem, mikrofonem i głośnikiem.",
+    "computer": "Naprawa komputerów",
+    "computerDescription": "Modernizacja sprzętu, naprawa ekranu, wymiana klawiatury i odzyskiwanie danych.",
+    "console": "Naprawa konsol",
+    "consoleDescription": "Problemy z przegrzewaniem, naprawa napędu, problemy z kontrolerem i inne.",
+    "tv": "Naprawa telewizorów",
+    "tvDescription": "Problemy z ekranem, dźwiękiem, zasilaniem i łącznością.",
+    "camera": "Naprawa aparatów",
+    "cameraDescription": "Czyszczenie obiektywu, problemy z sensorem, wymiana baterii i naprawa przycisków.",
+    "other": "Inna elektronika",
+    "otherDescription": "Naprawiamy także drony, smartwatche i inne urządzenia elektroniczne.",
+    "readMore": "Dowiedz się więcej"
+  },
+
+  "contactModal": {
+    "title": "Skontaktuj się z nami",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "hours": "Godziny otwarcia",
+    "address": "Adres",
+    "name": "Imię",
+    "namePlaceholder": "Wpisz swoje imię",
+    "emailPlaceholder": "Wpisz swój e-mail",
+    "message": "Wiadomość",
+    "messagePlaceholder": "Wpisz swoją wiadomość",
+    "sendButton": "Wyślij"
+  }
+}

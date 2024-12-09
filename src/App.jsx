@@ -3,6 +3,8 @@ import { useState, useEffect } from "react";
 import { I18nextProvider } from "react-i18next";
 import Flag from "react-world-flags";
 import i18n from "./18";
+import WhatWeDo from "./components/WhatWeDo";
+import Reviews from "./components/Reviews";
 
 const App = () => {
   const [language, setLanguage] = useState(
@@ -23,6 +25,8 @@ const App = () => {
     <div>
       <I18nextProvider i18n={i18n}>
         <NeumorphicUI />
+        <WhatWeDo />
+        <Reviews />
         <div className="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg flex space-x-4 items-center">
           <button
             onClick={() => toggleLanguage("en")}
