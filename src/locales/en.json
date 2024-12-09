@@ -40,5 +40,15 @@
     "message": "Message",
     "messagePlaceholder": "Enter your message",
     "sendButton": "Send"
+  },
+  "footer": {
+    "about": "Media Perfekt provides professional repair services for electronics and IT devices. We ensure high-quality service with quick turnaround times.",
+    "quickLinks": "Quick Links",
+    "services": "Services",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "blog": "Blog",
+    "contactInfo": "Contact Information",
+    "rightsReserved": "All rights reserved."
   }
 }

@@ -52,9 +52,12 @@ const WhatWeDo = () => {
   ];
 
   return (
-    <div className="bg-white">
+    <div className="bg-gray-100 ">
       <div className="max-w-[1440px] mx-auto">
-        <section id="services" className="bg-white py-10 sm:py-20">
+        <section
+          id="services"
+          className="bg-gray-100 py-10 sm:py-20 px-4 md:px-0"
+        >
           <div className="max-w-[1440px] mx-auto">
             <h2 className="text-2xl sm:text-3xl font-bold text-center text-black mb-8 sm:mb-10">
               {t("services.title")}

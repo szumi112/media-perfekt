@@ -40,5 +40,15 @@
     "message": "Wiadomość",
     "messagePlaceholder": "Wpisz swoją wiadomość",
     "sendButton": "Wyślij"
+  },
+  "footer": {
+    "about": "Media Perfekt oferuje profesjonalne usługi naprawy elektroniki i urządzeń IT. Gwarantujemy wysoką jakość usług i szybki czas realizacji.",
+    "quickLinks": "Szybkie linki",
+    "services": "Usługi",
+    "aboutUs": "O nas",
+    "contact": "Kontakt",
+    "blog": "Blog",
+    "contactInfo": "Informacje kontaktowe",
+    "rightsReserved": "Wszelkie prawa zastrzeżone."
   }
 }
