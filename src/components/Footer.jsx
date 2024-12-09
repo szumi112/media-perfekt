@@ -4,7 +4,7 @@ import logo from "../assets/logo.png";
 const Footer = () => {
   const { t } = useTranslation();
   return (
-    <footer className="bg-gray-900 text-white py-10 px-6 sm:px-12 mt-8">
+    <footer className="bg-gray-900 text-white py-10 px-6 sm:px-12">
       <div className="max-w-[1440px] mx-auto grid grid-cols-1 sm:grid-cols-3 gap-8">
         <div>
           <img src={logo} alt="Media Perfekt Logo" className="h-10 mb-4" />
