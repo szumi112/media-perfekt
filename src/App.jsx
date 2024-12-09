@@ -39,9 +39,8 @@ const App = () => {
         <Reviews />
         <Contact />
 
-        <div id="contact-info">
-          <ContactInfo />
-        </div>
+        <div id="contact-info"></div>
+        <ContactInfo />
 
         <Footer />
         <div className="fixed bottom-4 right-4 bg-gray-800 text-white px-4 py-2 rounded-full shadow-lg flex space-x-4 items-center">
